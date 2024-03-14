@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 body {
-  background: #f2f3fb;
+  background: #343434;
   width: 100%;
   min-height: 100vh;
   font-family: "Roboto", sans-serif;
@@ -38,22 +38,22 @@ ul {
 
 /*****Picture and name*****/
 .picture {
-  height: 9rem;
-  width: 9rem;
+  height: 8rem;
+  width: 7rem;
   background-color: #52c8ff;
   border-radius: 100%;
   overflow: hidden;
 }
 .picture img {
   height: 9rem;
-  width: 9rem;
+  width: 7rem;
 }
 .name {
   padding: 1rem 0;
   font-size: 2rem;
   letter-spacing: 1.5px;
   font-weight: bold;
-  color: #00445A;
+  color: white;
 }
 
 /*****Few personal details*****/
@@ -161,7 +161,7 @@ ul {
   border-radius: 0.5rem;
   backdrop-filter: blur(10px);
   border: 2px solid #343b45;
-  background-color: #f5f5fc;
+  background-color: #d3d3d3;
   padding: 1rem 0;
   transition: all 0.3s ease;
   display: flex;
